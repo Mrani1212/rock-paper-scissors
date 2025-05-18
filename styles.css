@@ -3,3 +3,31 @@ h1 {
     justify-content: center;
     background-color: aquamarine;
 }
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+button {
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 6px 12px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+}
+
+.funny {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
