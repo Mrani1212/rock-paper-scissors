@@ -38,7 +38,7 @@ function playRound (humanChoice, computerChoice) {
         console.log(`You loose. ${computerChoice} beats ${humanChoice}.`)
     }
 }
-
+// got help to write what below got stuck
 function playGame() {
     console.log("Starting Rock-Paper-Scissors! Best of 5 rounds wins!");
     
