@@ -4,46 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <script>
-   function getComputerChoice () {
-    const randomNumber = Math.random();
-    if (randomNumber < 0.33) {
-        return "rock";
-    } else if (randomNumber < 0.66) {
-        return "paper";
-    } else  {
-        return "scissors";
-    }
-   }
+    <h1>Rock Paper Scissors</h1>
     
-   function getHumanChoice() {
-    const choice = prompt("Enter your choice (rock, paper, or scissors):").toLowerCase();
-    return choice;
-}
-
-let getHumanScore = 0;
-let getComputerScore = 0;
-
-function playRound (getHumanChoice, getComputerChoice) {
-getHumanChoice = getHumanChoice.toLowerCase();
-
-if (getHumanChoice === getComputerChoice) {
-    console.log(`It's a tie! Both chose ${getHumanChoice}`);
-} else if (
-    (getComputerChoice === 'rock' && getComputerChoice === 'scissors')
-    (getHumanChoice === 'paper' && getComputerChoice === 'rock')
-    (getHumanChoice === 'scissors' && getComputerChoice === 'paper')
-) {
-    getHumanScore++;
-    console.log(`You win! ${getHumanChoice} beats ${getComputerChoice}.`)
-} else {
-    getComputerScore++;
-    console.log(`You lose! ${getComputerChoice} beats ${getHumanChoice}.`)
-}
-}
-
-   </script> 
 </body> 
+<script src="main.js"></script>
 </html>
