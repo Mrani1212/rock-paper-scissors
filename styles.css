@@ -31,3 +31,9 @@ button {
     justify-content: center;
     margin-bottom: 8px;
 }
+
+.instructions {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
